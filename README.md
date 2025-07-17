@@ -1,6 +1,10 @@
 # Titanic Survival Predictor
 
-A comprehensive machine learning pipeline for predicting passenger survival on the Titanic using advanced feature engineering and multiple model evaluation.
+A comprehensive machine learning pipeline for predicting passenger survival on the Titanic using feature engineering and multiple model evaluation. Result submitted on kaggle:
+
+https://www.kaggle.com/xignoe
+
+Score: 0.76794
 
 ## 🎯 Project Overview
 
