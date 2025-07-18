@@ -142,36 +142,13 @@ Raw Data → Clean Data → Engineer Features → Train Model → Make Predictio
 - XGBoost learns patterns like: "1st class females usually survive"
 - Combine rule predictions with ML predictions
 
-### 📚 Learning Path for Beginners
+### 🎯 Quick Results
 
-#### **Level 1: Start Simple**
+Want to see the best model in action? Run this single command:
 ```bash
-# Run the basic pipeline first
-python main.py pipeline --verbose
-```
-This uses traditional ML approaches (Random Forest, Logistic Regression) with standard feature engineering.
-
-#### **Level 2: Advanced Features**
-```bash
-# Try the enhanced approach with 40+ features
-python main_enhanced.py
-```
-This adds sophisticated feature engineering like interaction terms and ensemble methods.
-
-#### **Level 3: Domain Knowledge**
-```bash
-# Run the breakthrough approach
 python main_mvp_rules.py
 ```
-This combines domain-specific rules with ML - our top 4% solution!
-
-### 🧠 Understanding Different Approaches
-
-| File | Approach | Score | What You'll Learn |
-|------|----------|-------|-------------------|
-| `main.py` | Traditional ML | 0.76794 | Basic data science pipeline |
-| `main_enhanced.py` | Advanced ML | 0.77033 | Feature engineering & ensembles |
-| `main_mvp_rules.py` | Rules + ML | 0.80143 | Domain knowledge integration |
+This will create `mvp_improved_submission.csv` with our top 4% performance (80.14% accuracy)!
 
 ### 🔍 Code Structure Explained
 
