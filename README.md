@@ -2,13 +2,13 @@
 
 A comprehensive machine learning pipeline for predicting passenger survival on the Titanic using advanced feature engineering, family survival rules, and ensemble methods. 
 
-## 🏆 **Top 4% Performance on Kaggle**
+## 🏆 **Top 3% Performance on Kaggle**
 
-**Kaggle Leaderboard Position: 628 / 15,496 (Top 4.05%)**
+**Kaggle Leaderboard Position: 490 / 15,435 (Top 3.17%)**
 
 https://www.kaggle.com/xignoe
 
-**Best Score: 0.80143** (80.143% accuracy)
+**Best Score: 0.80382** (80.382% accuracy)
 
 ## 🎯 Project Overview
 
@@ -27,15 +27,16 @@ This project implements a complete end-to-end machine learning solution for the 
 ## 📊 Model Performance
 
 ### 🏆 Competition Results
-- **Kaggle Public Score**: 0.80143 (80.143% accuracy)
-- **Leaderboard Position**: 628 out of 15,496 submissions
-- **Percentile**: Top 4.05% of all submissions
+- **Kaggle Public Score**: 0.80382 (80.382% accuracy)
+- **Leaderboard Position**: 490 out of 15,435 submissions
+- **Percentile**: Top 3.17% of all submissions
 
 ### 🎯 Model Evolution
 | Approach | Score | Key Innovation |
 |----------|-------|----------------|
-| Enhanced ML | 0.77033 | Advanced feature engineering + ensemble |
+| Conservative Rules | 0.80382 | 18 family rules + minimal adjustments |
 | Rule-based MVP | 0.80143 | Family survival rules + gender baseline |
+| Enhanced ML | 0.77033 | Advanced feature engineering + ensemble |
 | Basic ML | 0.76794 | Standard preprocessing + RF/SVM |
 
 ### 📈 Cross-Validation Performance
@@ -103,9 +104,9 @@ The Titanic dataset contains information about passengers like age, sex, ticket 
 #### **Step 2: Run the Best Model (Beginner-Friendly)**
 ```bash
 # Run our top-performing approach
-python main_mvp_rules.py
+python main_conservative.py
 ```
-This creates `mvp_improved_submission.csv` with 80.14% accuracy - our best result!
+This creates `conservative_submission.csv` with 80.38% accuracy - our best result!
 
 #### **Step 3: Understanding What Happened**
 The magic happens in two parts:
@@ -146,9 +147,9 @@ Raw Data → Clean Data → Engineer Features → Train Model → Make Predictio
 
 Want to see the best model in action? Run this single command:
 ```bash
-python main_mvp_rules.py
+python main_conservative.py
 ```
-This will create `mvp_improved_submission.csv` with our top 4% performance (80.14% accuracy)!
+This will create `conservative_submission.csv` with our top 3% performance (80.38% accuracy)!
 
 ### 🔍 Code Structure Explained
 
